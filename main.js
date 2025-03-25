@@ -14,6 +14,8 @@ If all requirements are met, return true,
 
 otherwise return false */
 
+let username = "henrik12";
+let password = "henrik234";
 
 function isValidPassword(password, username) {
     if (password.length < 8) {
@@ -30,3 +32,7 @@ function isValidPassword(password, username) {
 
     return true;
 }
+
+let result = isValidPassword(password, username);
+
+console.log(result)
